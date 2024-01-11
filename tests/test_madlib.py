@@ -3,7 +3,6 @@ from madlib_cli.madlib import read_template, parse_template, merge
 
 
 def test_read_template_returns_stripped_string():
-    print("Current directory:", os.getcwd())
     actual = read_template("madlib_cli/madlib_template.txt")
     expected = """Welcome to the Void of MadLib!
 
